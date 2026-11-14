@@ -2,20 +2,9 @@
 
 ## Assignment 4: Core Gameplay, Physics and Architecture
 
-### 1. AI Tools Used
 
-ChatGPT was used to assist with the development, debugging, architecture planning, and documentation of Math Kingdom.
 
-AI assistance included:
-- Generating and organizing Unity C# scripts.
-- Implementing player movement, jumping, and physics interactions.
-- Developing the mathematical collection mechanic.
-- Designing the class architecture.
-- Creating the UML/Mermaid diagram.
-- Reviewing the project against Assignment 4 requirements.
-- Preparing the README and technical documentation.
-
-### 2. Architecture Review
+### . Architecture Review
 
 AI was used to review the planned architecture and compare it with the implementation.
 
@@ -57,7 +46,7 @@ Score, remaining time, and game completion are managed through `MathGameState` r
 
 These points describe the final architectural organization. They should be treated as differences from the original design only where the original design actually used another approach.
 
-### 4. Physics Implementation Review
+### . Physics Implementation Review
 
 Math Kingdom uses Unity's 2D physics system.
 
@@ -71,7 +60,7 @@ The other two physics requirements, `CharacterController` and `Raycast`, are cov
 
 Together, the two projects are designed to demonstrate all five physics features required by Assignment 4.
 
-### 5. Event-Based Communication
+### . Event-Based Communication
 
 The game uses `GameSignals` to communicate gameplay changes.
 
@@ -82,7 +71,7 @@ The game uses `GameSignals` to communicate gameplay changes.
 
 This design avoids direct communication between the game-state logic and UI implementation.
 
-### 6. Architecture Decisions
+### . Architecture Decisions
 
 **Decision 1 — Event-based communication**
 
@@ -108,7 +97,7 @@ Alternative: manually changing the player's position for jumping.
 
 Reason: Unity physics provides gravity and collision handling.
 
-### 7. Testing and Debugging
+### . Testing and Debugging
 
 Development and testing focused on:
 - Player movement and jumping.
@@ -120,7 +109,7 @@ Development and testing focused on:
 
 AI assistance was used to review the code structure and suggest improvements to component responsibilities and event communication.
 
-### 8. AI Contributions and Developer Decisions
+### . AI Contributions and Developer Decisions
 
 AI assisted with writing code, organizing the project, preparing architecture diagrams, and documenting the implementation.
 
@@ -128,7 +117,7 @@ The developer was responsible for opening the project in Unity, testing gameplay
 
 The final architecture emphasizes separation of responsibilities, configurable gameplay values, and event-based UI updates.
 
-### 9. Conclusion
+### . Conclusion
 
 AI assistance supported the development and architectural review of Math Kingdom.
 
