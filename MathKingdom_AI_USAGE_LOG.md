@@ -22,7 +22,7 @@ The game is organized into components with separate responsibilities:
 
 This separation follows the Single Responsibility Principle.
 
-### 3. Differences Between Planned and Final Architecture
+### . Differences Between Planned and Final Architecture
 
 **Change 1 — Separation of gameplay and UI**
 
